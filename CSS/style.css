@@ -1,0 +1,170 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+h1,
+h2,
+h3 {
+  color: #1ba7bd;
+}
+h1 {
+  font-size: 26px;
+  /* font-family: sans-serif; */
+  text-transform: uppercase;
+  font-style: italic;
+}
+/*        text style
+   1.font-size == it will increase the size of text
+   2.font-family == it will change the text style like bold and sans-serif
+   3.text-transform == it will change the text in upper or lower case 
+   4.font-style == text into ltalic or other
+   5.text-align == it replace the text into centre, left, right etc
+   6.line-height == it will increase the gap between the lines.
+   7.Color == it help to color the text. 
+
+                SELECTORS
+
+   8.combined selector == like h1,h2,h4,p,li etc (we can combine the selector as we can with the same property or value)
+   9.individual == we can also style the individual property like h1,h2 etc.
+   10.Class == we can create a class in html file and then style it
+              class can we style with (.) like .related.
+   11.ID == for id (#) #related
+   12.Chlid property == header p (it means p is child selector)
+                 article header p {
+                        font-style: italic;}
+                 footer p {
+                    font-size: 16px;}
+
+                    STYLE
+
+   13.font-weight == it bold the text
+   14.line-style == it style the line text (none)  
+   15.Border == 5px(side lines of border), solid,dotted(design), red(color)
+                border-style: solid; 
+                border-radius: 10px; 
+                border-color : blue;
+                border-bottom:5px solid #1098ad;
+                border-top: 5px solid #1098ad;
+                border-bottom:5px solid #1098ad;
+                border-left:5px solid #1098ad;
+                border-right : 5px solid #1098ad; 
+   16.Background-color == purple
+   17.Pesudo class == li:first-child{
+                         font-weight: bold;}
+                     article p:last-child{
+                           color:red;}
+                      li:nth-child(odd){
+                           color: red;}
+       pesudo class use when all the child are same line in list.
+   18.color in pesudo class == : link means style the link
+                               : visited means after visited the link style
+                               : hover means when mouse point to link then style it
+                               : active means when click on the link style it. 
+                style links 
+            a:link {
+                color: #1098ad;
+                text-decoration: none;}
+            a:visited {
+                color: blue;}
+            a:hover {
+                color: orangered;
+                font-weight: bold;
+                text-decoration: underline orangered;}
+            a:active {
+                background-color: black;
+                font-style: italic;}                        
+
+ */
+
+h2 {
+  font-size: 40px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+h3 {
+  font-size: 30px;
+  /* font-family: sans-serif; */
+}
+h4 {
+  font-size: 30px;
+  /* font-family: sans-serif; */
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  /* font-family: sans-serif; */
+  line-height: 1.5;
+}
+li {
+  /* font-family: sans-serif; */
+  font-size: 20px;
+}
+footer p {
+  font-size: 16px;
+}
+/* article header p {
+  font-style: italic;
+} */
+#author {
+  font-size: 18px;
+  font-style: italic;
+}
+.related {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related-img {
+  list-style: none;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  background-color: #f7f7f7;
+  /* border-bottom:5px solid #1098ad; */
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+
+  /* border-style: solid; 
+     border-radius: 10px; 
+     border-color : blue;
+     border-bottom:5px solid #1098ad;
+     border-top: 5px solid #1098ad;
+     border-bottom:5px solid #1098ad;
+     border-left:5px solid #1098ad;
+     border-right : 5px solid #1098ad;  */
+}
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* article p:last-child{
+    color:red;} */
+
+/* li:nth-child(odd){
+    color: red;
+} */
+/* style links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
